@@ -1,0 +1,138 @@
+/* .slideshow {
+    text-align: center;
+    padding: 20px;
+    color: red;
+    background-color: #f2f2f27c;
+    font-family: fantasy;
+    font-size: 30px;
+} */
+  /*header css*/
+  /* ul.d-flex li {
+    margin: 0px 16px;
+    list-style: none;
+}
+
+ul.d-flex li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+}
+
+/* btn css */
+button.hello {
+  right: 10px;
+  bottom: 5px;
+  position: fixed;
+  color: #150202;
+  border-radius: 24px;
+  padding: 7px 12px;
+  background: #fff;
+  text-align: center;
+  border: 1px solid gray;
+}
+button.btn.btn-dark {
+  margin-right: 20px;
+}  
+/* form register*/
+
+
+
+.login-form {
+max-width: 400px;
+margin: 0 auto;
+padding: 20px;
+background: #f2f2f2;
+border-radius: 5px;
+}
+
+.login-form h2 {
+text-align: center;
+margin-bottom: 20px;
+}
+
+.form-group {
+margin-bottom: 15px;
+}
+
+.form-group label {
+display: block;
+margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="password"],
+.form-group input[type="email"] {
+width: 100%;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+
+button[type="submit"] {
+padding: 10px;
+background: #4CAF50;
+color: #fff;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+button[type="submit"]:hover {
+background: #45a049;
+}
+button[type="Reset"] {
+padding: 10px;
+background: #4CAF50;
+color: #fff;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+.form-group span {
+color: red;
+text-transform:capitalize;
+} 
+span.text-center {
+font-size: 37px;
+font-weight: 600;
+font-family: cursive;
+display: block;
+}
+
+
+
+/* table css*/
+th {
+text-transform: uppercase;
+padding: 10px 0px;
+}
+td {
+border: 2px solid;
+text-align: -webkit-center;
+}
+thead,tr,th :nth-child(1){
+text-align:-webkit-center;
+}
+
+/* sorry card css */
+.sorry-card {
+background-color: #fff;
+border: 1px solid #ccc;
+border-radius: 5px;
+padding: 20px;
+width: 300px;
+text-align: center;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.sorry-card h2 {
+color: #f44336;
+font-size: 24px;
+margin-top: 0;
+}
+
+.sorry-card p {
+color: #555;
+font-size: 16px;
+margin-bottom: 0;
+}

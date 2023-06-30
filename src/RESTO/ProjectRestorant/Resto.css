@@ -1,0 +1,396 @@
+ body {
+   font-family: "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+   margin: 0px;
+ }
+
+ .col.mynav {
+   display: flex;
+   justify-content: end;
+ }
+
+ .resto-conta {
+   width: 100%;
+ }
+
+ .container {
+   border-bottom: 0px solid;
+ }
+
+ header {
+   padding: 1rem;
+   position: sticky;
+   width: 100%;
+   background: white;
+   z-index: 999;
+   top: 0;
+ }
+
+ .navbar ul {
+   display: flex;
+   margin-top: 0;
+   margin-bottom: 0rem;
+ }
+
+ .navbar li {
+   list-style: none;
+   margin: 2px 20px;
+ }
+
+ li {
+   list-style: none;
+ }
+
+ .row {
+   align-items: center;
+ }
+
+ .navbar a {
+   text-decoration: none;
+   color: #000;
+   font-size: 20px;
+   font-weight: 500;
+ }
+
+ .navbar a:hover {
+   color: red;
+   transform: translate()
+ }
+
+ .logo a {
+   text-decoration: none;
+   color: black;
+   border: 2px solid;
+   padding: 8px 4px;
+ }
+
+ .logo span.main {
+   color: black;
+   margin: 10px;
+   font-weight: 600;
+
+ }
+
+ span.txt {
+   color: #a48787;
+   text-shadow: 1px 2px 2px #000000;
+   font-size: 24px;
+   font-weight: 600;
+   text-align: center;
+ }
+
+ .custom-bg {
+   background-image: url("C:\Users\Shikha thakur\brain\public\images\resto.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   background-position: center;
+   padding: 140px 0;
+ }
+
+ .banner {
+   display: inline-block;
+   background: rgba(0, 0, 0, .5);
+   color: white;
+   text-align: center;
+   text-transform: capitalize;
+   padding: 30px 50px;
+ }
+
+
+ .btn-btn-primary {
+   margin-top: 2rem;
+   display: inline-block;
+   text-decoration: none;
+   color: var(--mainBlack);
+   background: #af9a7d;
+   padding: 0.4rem 2.9rem;
+   border: 3px solid #af9a7d;
+   text-transform: uppercase;
+   cursor: pointer;
+ }
+
+ .banner p {
+   font-size: 1.2rem;
+   margin-bottom: 2rem;
+   letter-spacing: 4px;
+ }
+
+ .banner h1 {
+   font-size: 4rem;
+   font-weight: 700;
+ }
+
+ .banner div {
+   width: 10rem;
+   height: 5px;
+   background: #af9a7d;
+   margin: 1rem auto;
+ }
+
+ .custom-services {
+   height: 5px;
+   background: #af9a7d;
+   width: 10px;
+
+ }
+
+ .title-services {
+   width: 6rem;
+   height: 5px;
+   margin: 0 auto;
+   background: #af9a7d;
+   margin-bottom: 2rem;
+
+ }
+
+ .main-hotel-container h2 {
+   font-size: 2rem;
+   text-align: center;
+   text-transform: capitalize;
+   font-weight: 700;
+   letter-spacing: 5px;
+   padding: 2rem;
+ }
+
+ .resto-services {
+   padding: 1rem 0;
+   text-align: center;
+ }
+
+ .main-hotel-container {
+   background: #cfcfcf;
+ }
+
+ .resto-services h6 {
+   font-size: 1rem;
+   font-weight: 700;
+   letter-spacing: 3px;
+ }
+
+ .img-container img {
+   width: 100%;
+ }
+
+ .img-container {
+   position: relative;
+   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+ }
+
+ .title-container {
+   position: absolute;
+   top: 0px;
+   background: rgba(0, 0, 0, .8);
+   color: #fff;
+   border-bottom-right-radius: 1rem;
+   text-align: center;
+   width: 75px;
+   height: 43px;
+ }
+
+ .title-container h6 {
+   font-size: 11px;
+   font-weight: 100;
+ }
+
+ .room-link {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   -webkit-transform: scale(0);
+   transform: scale(0);
+   transition: all .3s linear;
+ }
+
+ .img-container p {
+   margin-top: 0;
+   margin-bottom: 1rem;
+   background: black;
+   color: white;
+   padding: 7px;
+   text-align: center;
+   letter-spacing: 4px;
+ }
+
+ .custom-feature h2 {
+   font-size: 2rem;
+   text-align: center;
+   padding-top: 3rem;
+   letter-spacing: 4px;
+   font-weight: 700;
+ }
+
+ .featured-div {
+   width: 6rem;
+   height: 5px;
+   margin: 0 auto;
+   background: #af9a7d;
+   margin-bottom: 4rem;
+ }
+
+ .footer-box {
+   margin-top: 3rem;
+   background-color: #000000;
+   color: white;
+   text-align: center;
+   padding: 2rem;
+ }
+
+ .footer-box h2 {
+   font-size: 2rem;
+   padding: 1rem;
+   letter-spacing: 3px;
+   font-weight: 700;
+ }
+
+ .footer-box p {
+   font-size: 1rem;
+   margin-top: 1rem;
+ }
+
+ .footer-resto {
+   background: black;
+   color: white;
+ }
+
+ .my-rooms {
+   width: 20%;
+   text-align: -webkit-right;
+ }
+
+ .room-container {
+   background-image: url('C:\Users\Shikha thakur\brain\public\images\room.jpeg');
+   background-size: cover;
+   background-repeat: no-repeat;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   background-position: center;
+   padding: 140px 0;
+ }
+
+ .room-banner {
+   display: inline-block;
+   background: rgba(0, 0, 0, .5);
+   color: white;
+   text-align: center;
+   text-transform: capitalize;
+   padding: 25px 80px;
+ }
+
+ .ban-room {
+   width: 10rem;
+   height: 5px;
+   background: #af9a7d;
+   margin: 0.7rem auto;
+ }
+
+ .btn-btn-success {
+   display: inline-block;
+   text-decoration: none;
+   color: var(--mainBlack);
+   background: #af97768c;
+   padding: 0.4rem 0.9rem;
+   border: 3px solid #af9a7d;
+   text-transform: uppercase;
+   margin-top: 2rem;
+ }
+
+ .room-banner h1 {
+   font-size: 4.5rem;
+   font-weight: bolder;
+ }
+
+ .form-control {
+   display: block;
+   width: 50%;
+   font-size: 1rem;
+   font-weight: 400;
+   line-height: 1.5;
+   color: #212529;
+   background-color: #fff;
+ }
+
+ .serching-room {
+   text-align: center;
+   padding-top: 4rem;
+ }
+
+ footer h6 a {
+   color: white;
+   text-decoration: none;
+ }
+
+ .serching-room h2 {
+   font-size: 2rem;
+   font-weight: bold;
+   letter-spacing: 6px;
+ }
+
+ .myroom-form {
+   margin-bottom: 8rem;
+   text-align: center;
+ }
+
+ .search-div {
+   width: 8rem;
+   height: 5px;
+   background: #af9a7d;
+   margin: 0.7rem auto;
+   margin-bottom: 4rem;
+ }
+
+ .money-sec input {
+   font-size: small;
+   line-height: inherit;
+   margin: 2px;
+   border-radius: 4px;
+   border: 1px solid;
+ }
+
+ .room-form select {
+   word-wrap: normal;
+   border-radius: 5px;
+   padding-right: 10px;
+   width: 75%;
+ }
+
+ .food label {
+   display: inline-block;
+   font-family: emoji;
+   font-size: 14px;
+ }
+
+ /* Responsive css start here */
+
+ @media (max-width:767px) {
+
+   .banner h1 {
+     font-size: 3rem;
+   }
+
+   .room-banner h1 {
+     font-size: 40px;
+   }
+
+   .room-type {
+     padding: 16px;
+   }
+
+   select {
+     word-wrap: normal;
+     width: 53%;
+   }
+ }
+ button.hello {
+  right: 10px;
+  bottom: 5px;
+  position: fixed;
+  color: #150202;
+  border-radius: 24px;
+  padding: 7px 12px;
+  background: #fff;
+  text-align: center;
+  border: 1px solid gray;
+}
